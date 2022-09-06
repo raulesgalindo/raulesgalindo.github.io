@@ -19,7 +19,7 @@ const AboutMe = ({type}) => {
                             {type !== 'page' ? (<h3 className="block-title">ABOUT ME</h3>) : null}
                             <p>{aboutData.bio}</p>
                             <ul className="personal-info">
-                                <li><span>Skype:</span>{aboutData.skype}</li>
+                                <li><span>Discord:</span>{aboutData.discord}</li>
                                 <li><span>Freelance:</span>{aboutData.availability ? 'Available' : 'Not Available'}</li>
                                 <li>
                                     <span>Language:</span>
@@ -29,7 +29,7 @@ const AboutMe = ({type}) => {
                                 </li>
                             </ul>
 
-                            <h3 className="block-title">Skill</h3>
+                            <h3 className="block-title">Tech stack I'm fluent and have used recently</h3>
 
                             <div className="skill-wrap">
                                 {aboutData.skills.map(skill => (
@@ -40,6 +40,12 @@ const AboutMe = ({type}) => {
                                     />
                                 ))}
                             </div>
+
+                            <h3 className="block-title">Known tech stack but haven't used recently nor frequently</h3>
+
+                            {aboutData.knowledge_drops.map((knowledge_drop, index) => (
+                                <p key={index} style={{display: 'inline-block'}}>{`${knowledge_drop},  `}</p>
+                            ))}
                         </Content>
                     </Col>
                 </Row>

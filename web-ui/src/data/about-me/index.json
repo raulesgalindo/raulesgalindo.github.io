@@ -1,29 +1,56 @@
 {
-  "thumb": "about.jpg",
-  "bio": "There are many variations of passages of Lorem available, but the lteration in some form, by injected humour lebmid ipsum by injected humour lebmid. There are many variations of passages of Lorem, but the majority have suffered lebmid by injected.",
-  "skype": "jonathon.haris111",
+  "thumb": "profile.png",
+  "bio": "Hey I'm Raúl, I help organizations through technology using backend and frontend tools.",
+  "discord": "raulesgal",
   "availability": true,
   "languages": [
     "English",
-    "Hindi",
-    "Bengali",
-    "Telegu"
+    "Spanish"
   ],
   "skills": [
     {
       "id": 1,
-      "title": "Graphic Design",
+      "title": "Git",
       "percentage": 75
     },
     {
       "id": 2,
-      "title": "Photoshop",
-      "percentage": 90
+      "title": "Play Framework(Scala)",
+      "percentage": 70
     },
     {
       "id": 3,
-      "title": "Web Design",
+      "title": "SpringBoot(Java)",
+      "percentage": 75
+    },
+    {
+      "id": 4,
+      "title": "Laravel(PHP)",
       "percentage": 80
+    },
+    {
+      "id": 5,
+      "title": "HTML, CSS, JS",
+      "percentage": 65
+    },
+    {
+      "id": 6,
+      "title": "MySQL, SQLServer, Postgres",
+      "percentage": 75
+    },
+    {
+      "id": 7,
+      "title": "MongoDB",
+      "percentage": 70
+    },
+    {
+      "id": 8,
+      "title": "RabbitMQ",
+      "percentage": 65
     }
+  ],
+  "knowledge_drops": [
+    "Flutter", "Docker", "Python", "Kubernetes", "Mesos Marathon", "Mockito","Smart Contracts(Solidity)", "Grafana", "Promotheus",
+    "AWS", "GCP", "GraphQL", "Serverless Framework", ".Net", "Jenkins", "PrimeFaces", "JavaEE", "Android Native(Java)"
   ]
 }

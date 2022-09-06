@@ -1,16 +1,14 @@
 import React from 'react';
-import Header from "../../components/header/HeaderOne";
+import HeaderTwo from "../../components/header/HeaderTwo";
 import SideHeader from "../../components/SideHeader";
 import ContentAboutPage from "../../templates/about-page";
-import FooterThree from "../../components/footer/FooterThree";
 
 const AboutPage = () => {
     return (
-        <div className={`main-wrapper`}>
-            <Header/>
-            <SideHeader mobile={true}/>
+        <div className={`main-wrapper has-side-header`}>
+            <HeaderTwo/>
+            <SideHeader mobile={false}/>
             <ContentAboutPage/>
-            <FooterThree position={'fixed'}/>
         </div>
     );
 };

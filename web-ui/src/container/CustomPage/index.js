@@ -8,7 +8,7 @@ const PageContainer = ({children, classes, fullWidth}) => {
 
     return (
         <div className={`content-body section ${classes}`}>
-            <div style={{display: 'flex', width: '100%', maxHeight: isMobile ? 'auto' : 'calc(100vh - 200px)'}}>
+            <div style={{display: 'flex', width: '100%', maxHeight: isMobile ? 'auto' : 'calc(100vh - 100px)'}}>
                 <Scrollbar options={{suppressScrollX: true}} enable={!isMobile}>
                     <div className={`section-wrap section ${!fullWidth ? 'section-padding' : null}`}>
                         {children}
